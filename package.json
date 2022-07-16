@@ -8,10 +8,21 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "npm run clean && tsc",
-    "lint": "eslint src __tests__ --ext .js,.ts --cache --fix",
+    "lint": "eslint src __tests__ --ext .js,.ts --fix",
     "clean": "rm -rf dist",
     "prepare": "husky install",
     "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
