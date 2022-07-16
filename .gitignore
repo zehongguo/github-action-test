@@ -3,3 +3,4 @@ dists
 yarn-error.log
 .vscode
 tsconfig.json
+coverage

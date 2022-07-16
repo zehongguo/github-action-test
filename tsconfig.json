@@ -18,5 +18,5 @@
     "moduleResolution": "Node", // 指定使用哪种模块解析策略，默认为 Classic
     "incremental": true,
   },
-  "include": ["src", ".eslintrc.cjs", "__test__"] // 指定需要编译文件，默认当前目录下除了 exclude 之外的所有.ts, .d.ts,.tsx 文件
+  "include": ["src", ".eslintrc.cjs"] // 指定需要编译文件，默认当前目录下除了 exclude 之外的所有.ts, .d.ts,.tsx 文件
 }
