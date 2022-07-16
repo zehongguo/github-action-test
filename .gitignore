@@ -2,3 +2,4 @@ node_modules
 dists
 yarn-error.log
 .vscode
+tsconfig.json
